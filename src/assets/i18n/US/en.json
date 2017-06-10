@@ -18,9 +18,10 @@
       "option1": "Option 1"
     },
     "menu": {
-      "dashboard": "Dashboard",
-      "editors": "Editors",
-      "ck_editor": "CKEditor",
+      "dashboard": "Stats",
+      "editors": "Games",
+      "ck_editor": "HTML5 games",
+      "cf_editor": "Flash games",
       "components": "Components",
       "tree_view": "Tree View",
       "charts": "Charts",

@@ -3,23 +3,11 @@ export const PAGES_MENU = [
     path: 'pages',
     children: [
       {
-        path: 'dashboard',
-        data: {
-          menu: {
-            title: 'general.menu.dashboard',
-            icon: 'ion-android-home',
-            selected: false,
-            expanded: false,
-            order: 0
-          }
-        }
-      },
-      {
         path: 'editors',
         data: {
           menu: {
             title: 'general.menu.editors',
-            icon: 'ion-edit',
+            icon: 'ion-ionic',
             selected: false,
             expanded: false,
             order: 100,
@@ -33,8 +21,28 @@ export const PAGES_MENU = [
                 title: 'general.menu.ck_editor',
               }
             }
+          },
+          {
+            path: 'cfeditor',
+            data: {
+              menu: {
+                title: 'general.menu.cf_editor',
+              }
+            }
           }
         ]
+      },
+      {
+        path: 'dashboard',
+        data: {
+          menu: {
+            title: 'general.menu.dashboard',
+            icon: 'ion-android-home',
+            selected: false,
+            expanded: false,
+            order: 0
+          }
+        }
       },
       {
         path: 'components',

@@ -3,7 +3,7 @@ import { CommonModule }  from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AppTranslationModule } from '../../app.translation.module';
 import { NgaModule } from '../../theme/nga.module';
-
+import { Ng2SmartTableModule } from "ng2-smart-table";
 import { Dashboard } from './dashboard.component';
 import { routing }       from './dashboard.routing';
 
@@ -23,12 +23,15 @@ import { TodoService } from './todo/todo.service';
 import { TrafficChartService } from './trafficChart/trafficChart.service';
 import { UsersMapService } from './usersMap/usersMap.service';
 
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     AppTranslationModule,
+    Ng2SmartTableModule,
     NgaModule,
+   // TablesModule,
     routing
   ],
   declarations: [
@@ -41,6 +44,7 @@ import { UsersMapService } from './usersMap/usersMap.service';
     Todo,
     Calendar,
     Dashboard
+   // SmartTables
   ],
   providers: [
     CalendarService,

@@ -68,7 +68,7 @@ export class LineChartService {
         }
       ],
       graphs: [
-        {
+        /*{
           id: 'g0',
           bullet: 'none',
           useLineColorForBulletBorder: true,
@@ -79,7 +79,7 @@ export class LineChartService {
           valueField: 'value0',
           fillAlphas: 1,
           fillColorsField: 'lineColor'
-        },
+        },*/
         {
           id: 'g1',
           bullet: 'none',

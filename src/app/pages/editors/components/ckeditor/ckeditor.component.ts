@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import './ckeditor.loader';
 import 'ckeditor';
 
+
 @Component({
   selector: 'ckeditor-component',
   templateUrl: './ckeditor.html',
@@ -17,5 +18,14 @@ export class Ckeditor {
   };
 
   constructor() {
+
+  }
+
+  ngOnInit(){
+
+  }
+
+  ngOnDestroy(){
+
   }
 }
